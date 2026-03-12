@@ -1,21 +1,41 @@
-# About OSS for Microsoft Azure
+Community-driven PHP SDKs for Azure, because Microsoft won't.
 
-We provide proper Open Source Community driven PHP integration for Azure service since [Microsoft dropped their SDK support on several of their services](https://azure.microsoft.com/en-us/updates/retirement-notice-the-azure-storage-php-client-libraries-will-be-retired-on-17-march-2024/).
+In November 2023, Microsoft officially archived their [Azure SDK for PHP](https://github.com/Azure/azure-sdk-for-php) and stopped maintaining PHP integrations for most Azure services. No migration path, no replacement — just a repository marked read-only.
 
-## Want to help out? 💚
+We picked up where they left off.
 
-- [Contribute](https://github.com/azure-oss/.github/blob/main/HELPING_OUT.md#contribute)
-- [Help us maintain these packages](https://github.com/orgs/Azure-OSS/repositories)
+<img src="https://azure-oss.github.io/img/logo.svg" width="150" alt="Screenshot">
 
-## Contributing
+## Documentation
 
-All contributions are highly welcomed. Before you do, make sure you read our general [contributing guidelines](https://github.com/azure-oss/.github/blob/main/CONTRIBUTING.md).
-Your code will be released under the [MIT license](https://github.com/azure-oss/.github/blob/main/LICENSE).
+You can read the documentation [here](https://azure-oss.github.io).
 
-## Disclaimer
+## Packages
 
-This repository and the organization **Azure-OSS / OSS for Microsoft Azure** are **not affiliated, associated, authorized, endorsed by, or in any way officially connected** with Microsoft Corporation, or any of its subsidiaries or affiliates.
+### [azure-oss/storage](https://packagist.org/packages/azure-oss/storage) ![Version](https://img.shields.io/packagist/v/azure-oss/storage) ![Total Downloads](https://img.shields.io/packagist/dt/azure-oss/storage)
 
-All code and resources provided in this repository are contributed by the **Open Source Community** and are maintained by community volunteers. Our goal is to continue the development and support of open-source tools and services, where Microsoft has chosen to discontinue official support.
+The core Azure Blob Storage PHP SDK. This is the main package that provides the core functionality for interacting with Azure Blob Storage.
 
-For any issues or concerns related to the content of this repository, please reach out directly to the maintainers or contributors of this project.
+### [azure-oss/storage-blob-flysystem](https://packagist.org/packages/azure-oss/storage-blob-flysystem) ![Version](https://img.shields.io/packagist/v/azure-oss/storage-blob-flysystem) ![Total Downloads](https://img.shields.io/packagist/dt/azure-oss/storage-blob-flysystem)
+
+Flysystem adapter for Azure Storage PHP. Provides integration with the [Flysystem](https://flysystem.thephpleague.com/) filesystem abstraction library.
+
+### [azure-oss/storage-blob-laravel](https://packagist.org/packages/azure-oss/storage-blob-laravel) ![Version](https://img.shields.io/packagist/v/azure-oss/storage-blob-laravel) ![Total Downloads](https://img.shields.io/packagist/dt/azure-oss/storage-blob-laravel)
+
+Laravel filesystem driver for Azure Storage Blob. Provides seamless integration with Laravel's filesystem abstraction.
+
+### [azure-oss/storage-blob-common](https://packagist.org/packages/azure-oss/storage-common) ![Version](https://img.shields.io/packagist/v/azure-oss/storage-common) ![Total Downloads](https://img.shields.io/packagist/dt/azure-oss/storage-common)
+
+Common utilities and shared components for the Azure Storage PHP SDK. This package contains reusable functionality used across the Azure Storage Blob, Queue, and related integrations.
+
+### [azure-oss/storage-queue](https://packagist.org/packages/azure-oss/storage-queue)
+
+Under construction.
+
+### [azure-oss/storage-queue-laravel](https://packagist.org/packages/azure-oss/storage-queue-laravel)
+
+Under construction.
+
+### [azure-oss/identity](https://packagist.org/packages/azure-oss/identity) ![Version](https://img.shields.io/packagist/v/azure-oss/identity) ![Total Downloads](https://img.shields.io/packagist/dt/azure-oss/identity)
+
+Under construction.
