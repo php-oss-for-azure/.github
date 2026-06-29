@@ -1,5 +1,3 @@
-# Azure OSS
-
 Community-driven PHP SDKs for Azure, because Microsoft won't.
 
 In November 2023, Microsoft officially archived their [Azure SDK for PHP](https://github.com/Azure/azure-sdk-for-php) and stopped maintaining PHP integrations for most Azure services. No migration path, no replacement — just a repository marked read-only.
@@ -8,7 +6,7 @@ We picked up where they left off.
 
 ## Documentation
 
-You can read the documentation [here](https://azure-oss.github.io).
+You can read the documentation [here](https://php-oss-for-azure.github.io).
 
 ## Packages
 
