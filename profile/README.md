@@ -6,8 +6,6 @@ In November 2023, Microsoft officially archived their [Azure SDK for PHP](https:
 
 We picked up where they left off.
 
-<img src="https://azure-oss.github.io/img/logo.svg" width="150" alt="Screenshot">
-
 ## Documentation
 
 You can read the documentation [here](https://azure-oss.github.io).
