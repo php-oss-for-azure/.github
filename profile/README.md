@@ -1,3 +1,5 @@
+## About us
+
 Community-driven PHP SDKs for Azure, because Microsoft won't.
 
 In November 2023, Microsoft officially archived their [Azure SDK for PHP](https://github.com/Azure/azure-sdk-for-php) and stopped maintaining PHP integrations for most Azure services. No migration path, no replacement — just a repository marked read-only.
